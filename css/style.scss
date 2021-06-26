@@ -1,4 +1,22 @@
+
+//共通部分
+body{
+    color: #333;
+    font-size: 1.2rem;
+    font-family: "Hiragino Kaku Gothic Porn", Meiryo, sans-serif;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover,a:active{
+    color: #d03c56;
+    text-decoration: none;
+}
+
 .header{
+    height: 100px;
     width: 100%;
     background-color: blue;
 }
@@ -7,20 +25,26 @@
     max-width: 970px;
     margin: 30px auto 40px;
     background-color: skyblue;
-    
+    display: flex;
+    justify-content: space-between;
+
     .main{
+        height: 500px;
         width: 600px;
         margin-right: 35px;
         background-color: green;
+        
     }
     
     .side_menu{
+        height: 500px;
         width: 275px;
         background-color: red;
     }
 }
 
 .footer{
-    width: 100px;
+    height: 80px;
+    width: 100%;
     background-color: gray;
 }
