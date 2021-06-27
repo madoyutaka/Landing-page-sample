@@ -17,6 +17,37 @@ a:link, a:visited, a:hover, a:active {
   height: 100px;
   width: 100%;
   background-color: blue;
+  padding-top: 15px;
+}
+
+.header .logo {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header .global-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.header .global-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .global-nav ul .nav-item {
+  background-color: aqua;
+}
+
+.header .global-nav ul .nav-item a {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px;
+  color: azure;
+  font-size: 1.3rem;
 }
 
 .wrapper {

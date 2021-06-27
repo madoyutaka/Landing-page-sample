@@ -15,12 +15,41 @@ a:link, a:visited, a:hover,a:active{
     text-decoration: none;
 }
 
+//headerここから
 .header{
     height: 100px;
     width: 100%;
     background-color: blue;
+    padding-top: 15px;
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .global-nav{
+        margin-top: 15px;
+        text-align: center;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            .nav-item{
+                background-color: aqua;
+                a{
+                    width: 100px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 6px;
+                    color: azure;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
 }
 
+//wrapper
 .wrapper{
     max-width: 970px;
     margin: 30px auto 40px;
@@ -28,6 +57,7 @@ a:link, a:visited, a:hover,a:active{
     display: flex;
     justify-content: space-between;
 
+    //main部分
     .main{
         height: 500px;
         width: 600px;
@@ -35,7 +65,8 @@ a:link, a:visited, a:hover,a:active{
         background-color: green;
         
     }
-    
+
+    //side_menu部分
     .side_menu{
         height: 500px;
         width: 275px;
@@ -43,6 +74,7 @@ a:link, a:visited, a:hover,a:active{
     }
 }
 
+//footerここから
 .footer{
     height: 80px;
     width: 100%;
