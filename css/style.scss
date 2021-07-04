@@ -34,7 +34,7 @@ a:link, a:visited, a:hover,a:active{
             display: flex;
             justify-content: space-between;
             .nav-item{
-                background-color: aqua;
+                background-color: skyblue;
                 a{
                     width: 100px;
                     height: 30px;
@@ -76,7 +76,9 @@ a:link, a:visited, a:hover,a:active{
 
 //footerここから
 .footer{
-    height: 80px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 12px 0;
     width: 100%;
     background-color: gray;
 }
